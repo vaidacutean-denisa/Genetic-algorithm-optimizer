@@ -29,7 +29,8 @@ Each candidate solution is represented as a fixed-length binary chromosome. Chro
   The roulette-wheel selection process implements binary search to efficiently navigate the cumulative probability distribution, reducing the computational cost of locating the selected individual to $O(logn)$.
 
 - **Evolution monitoring**:\
-  The algorithm records the maximum fitness and average population fitness at every generation, making it possible to observe the evolutionary progress over time.\
+  The algorithm records the maximum fitness and average population fitness at every generation, making it possible to observe the evolutionary progress over time.
+  
 
 ## Detailed first-generation report 
 For educational and debugging purposes, the program provides a complete breakdown of the first generation, including:
